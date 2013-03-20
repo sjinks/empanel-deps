@@ -1,0 +1,5 @@
+empanel-deps (0.0.1) precise; urgency=low
+
+  * Initial release
+
+ -- Vladimir Kolesnikov <vladimir@extrememember.com>  Wed, 20 Mar 2013 23:24:25 +0200

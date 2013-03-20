@@ -1,0 +1,13 @@
+Source: empanel-deps
+Section: misc
+Priority: optional
+Maintainer: Vladimir Kolesnikov <vladimir@extrememember.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.3
+Vcs-Git: git@github.com:extrememember/empanel-deps.git
+
+Package: empanel-deps
+Architecture: any
+Depends: capistrano, acl, libwww-perl, cron, nginx, awstats, mysql-client
+Description: Dependencies for the EM panel (meta package)
+  Ensures that all dependencies required by the EM Panel are met
