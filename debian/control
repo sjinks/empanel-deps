@@ -10,4 +10,4 @@ Package: empanel-deps
 Architecture: any
 Depends: ${misc:Depends}, capistrano, acl, libwww-perl, cron, nginx, awstats, mysql-client
 Description: Dependencies for the EM panel (meta package)
-  Ensures that all dependencies required by the EM Panel are met
+ Ensures that all dependencies required by the EM Panel are met
