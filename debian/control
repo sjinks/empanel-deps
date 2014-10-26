@@ -9,5 +9,6 @@ Vcs-Git: git://github.com/sjinks/empanel-deps.git
 Package: empanel-deps
 Architecture: any
 Depends: ${misc:Depends}, capistrano, acl, libwww-perl, cron, nginx, awstats, mysql-client
+Suggests: make, gcc
 Description: Dependencies for the EM panel (meta package)
   Ensures that all dependencies required by the EM Panel are met
